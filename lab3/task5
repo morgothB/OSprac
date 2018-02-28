@@ -1,0 +1,30 @@
+#! /bin/bash
+
+procDirList=$( ls /proc/ | grep '^[1-9]*$' | sed "s#.*#\/proc\/&\/#" )
+
+i=0
+
+for dir in ${procDirList[*]}
+do
+   # echo "----${dir}"
+    if [ -f ${dir}status ]
+    then
+        id=$(grep '^Pid.*$' ${dir}status | awk '{print $2}')
+        ppid=$(grep '^PPid.*$' ${dir}status| awk '{print $2}')
+        ser=$(grep '^se.sum_exec_runtime.*$' ${dir}sched| awk '{print $3}')
+        nrsw=$(grep '^nr_switches.*$' ${dir}sched| awk '{print $3}')
+        if (( ${nrsw} != 0 ))
+        then
+            avg=$( awk -v se=${ser} -v nr=${nrsw} 'BEGIN{ print (se / nr) }')
+        else 
+            avg=-1
+        fi
+    fi
+    #echo ${id}
+    #echo ${ppid}
+    
+    arr[$i]="${id} : ${ppid} : ${avg}"
+    let i=i\+1
+done
+
+printf '%s\n' "${arr[@]}" | sort -n -k3 | awk -F ':' '{ print "ProcessID="$1" : Parent_ProcessID="$2" : Average_Sleeping_Time="$3 }' > 5res

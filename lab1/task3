@@ -1,0 +1,13 @@
+#! /bin/bash
+
+res=""
+
+s=""
+
+while [ "$s" != "q" ];
+do
+read $"s"
+res="$res""$s"
+done
+
+echo ${res:0:${#res}-1}

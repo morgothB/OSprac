@@ -1,0 +1,1141 @@
+Feb 19 00:16:58 Dr42D sudo:  morgoth : TTY=pts/1 ; PWD=/home/morgoth/OSprac/lab2 ; USER=root ; COMMAND=/bin/grep -r ] ACPI:  /var/log/Xorg.0.log /var/log/Xorg.0.log.old /var/log/alternatives.log /var/log/alternatives.log.1 /var/log/alternatives.log.2.gz /var/log/alternatives.log.3.gz /var/log/apache2 /var/log/apt /var/log/auth.log /var/log/auth.log.1 /var/log/auth.log.2.gz /var/log/auth.log.3.gz /var/log/auth.log.4.gz /var/log/btmp /var/log/btmp.1 /var/log/cups /var/log/daemon.log /var/log/daemon.log.1 /var/log/daemon.log.2.gz /var/log/daemon.log.3.gz /var/log/daemon.log.4.gz /var/log/debug /var/log/debug.1 /var/log/debug.2.gz /var/log/debug.3.gz /var/log/debug.4.gz /var/log/dpkg.log /var/log/dpkg.log.1 /var/log/dpkg.log.2.gz /var/log/dpkg.log.3.gz /var/log/faillog /var/log/fontconfig.log /var/log/hp /var/log/installer /var/log/kern.log /var/log/kern.log.1 /var/log/kern.log.2.gz /var/log/kern.log.3.gz /var/log/kern.log.4.gz /var/log/lastlog /var/log/messages
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: IRQ0 used by override.
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: IRQ9 used by override.
+Nov 29 02:30:37 kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Nov 29 02:30:37 kernel: [    0.000038] ACPI: Core revision 20160831
+Nov 29 02:30:37 kernel: [    0.036663] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Nov 29 02:30:37 kernel: [    0.389691] ACPI: bus type PCI registered
+Nov 29 02:30:37 kernel: [    0.405965] ACPI: Added _OSI(Module Device)
+Nov 29 02:30:37 kernel: [    0.405965] ACPI: Added _OSI(Processor Device)
+Nov 29 02:30:37 kernel: [    0.405966] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov 29 02:30:37 kernel: [    0.405967] ACPI: Added _OSI(Processor Aggregator Device)
+Nov 29 02:30:37 kernel: [    0.407132] ACPI: Executed 19 blocks of module-level executable AML code
+Nov 29 02:30:37 kernel: [    0.417698] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Nov 29 02:30:37 kernel: [    0.422534] ACPI: Dynamic OEM Table Load:
+Nov 29 02:30:37 kernel: [    0.422540] ACPI: SSDT 0xFFFF9C906ECC7000 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.422824] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Nov 29 02:30:37 kernel: [    0.424169] ACPI: Dynamic OEM Table Load:
+Nov 29 02:30:37 kernel: [    0.424173] ACPI: SSDT 0xFFFF9C906ECC4800 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.425041] ACPI: Dynamic OEM Table Load:
+Nov 29 02:30:37 kernel: [    0.425046] ACPI: SSDT 0xFFFF9C906F318000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.425580] ACPI: Dynamic OEM Table Load:
+Nov 29 02:30:37 kernel: [    0.425584] ACPI: SSDT 0xFFFF9C906ED7CC00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Nov 29 02:30:37 kernel: [    0.427822] ACPI : EC: EC started
+Nov 29 02:30:37 kernel: [    0.427823] ACPI : EC: interrupt blocked
+Nov 29 02:30:37 kernel: [    0.429204] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Nov 29 02:30:37 kernel: [    0.429205] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Nov 29 02:30:37 kernel: [    0.429207] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Nov 29 02:30:37 kernel: [    0.429207] ACPI: Interpreter enabled
+Nov 29 02:30:37 kernel: [    0.429251] ACPI: (supports S0 S3 S4 S5)
+Nov 29 02:30:37 kernel: [    0.429252] ACPI: Using IOAPIC for interrupt routing
+Nov 29 02:30:37 kernel: [    0.439981] ACPI: Power Resource [PG00] (on)
+Nov 29 02:30:37 kernel: [    0.509928] ACPI: Power Resource [FN00] (off)
+Nov 29 02:30:37 kernel: [    0.510007] ACPI: Power Resource [FN01] (off)
+Nov 29 02:30:37 kernel: [    0.510084] ACPI: Power Resource [FN02] (off)
+Nov 29 02:30:37 kernel: [    0.510162] ACPI: Power Resource [FN03] (off)
+Nov 29 02:30:37 kernel: [    0.510239] ACPI: Power Resource [FN04] (off)
+Nov 29 02:30:37 kernel: [    0.511507] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Nov 29 02:30:37 kernel: [    0.564592] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Nov 29 02:30:37 kernel: [    0.564646] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Nov 29 02:30:37 kernel: [    0.564696] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Nov 29 02:30:37 kernel: [    0.564746] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Nov 29 02:30:37 kernel: [    0.564795] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Nov 29 02:30:37 kernel: [    0.564844] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Nov 29 02:30:37 kernel: [    0.564893] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Nov 29 02:30:37 kernel: [    0.564942] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Nov 29 02:30:37 kernel: [    0.565495] ACPI: Enabled 5 GPEs in block 00 to 7F
+Nov 29 02:30:37 kernel: [    0.565656] ACPI : EC: interrupt unblocked
+Nov 29 02:30:37 kernel: [    0.565668] ACPI : EC: event unblocked
+Nov 29 02:30:37 kernel: [    0.565697] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Nov 29 02:30:37 kernel: [    0.565699] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Nov 29 02:30:37 kernel: [    1.350735] ACPI: Thermal Zone [TZ00] (28 C)
+Nov 29 02:30:37 kernel: [    1.351068] ACPI: Thermal Zone [TZ01] (30 C)
+Nov 29 02:30:37 kernel: [    1.353358] ACPI: bus type USB registered
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 11 19:00:30 Dr42D kernel: [    0.000038] ACPI: Core revision 20160831
+Feb 11 19:00:30 Dr42D kernel: [    0.037168] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 11 19:00:30 Dr42D kernel: [    0.390456] ACPI: bus type PCI registered
+Feb 11 19:00:30 Dr42D kernel: [    0.406732] ACPI: Added _OSI(Module Device)
+Feb 11 19:00:30 Dr42D kernel: [    0.406733] ACPI: Added _OSI(Processor Device)
+Feb 11 19:00:30 Dr42D kernel: [    0.406734] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 11 19:00:30 Dr42D kernel: [    0.406735] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 11 19:00:30 Dr42D kernel: [    0.407903] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 11 19:00:30 Dr42D kernel: [    0.418543] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 11 19:00:30 Dr42D kernel: [    0.423382] ACPI: Dynamic OEM Table Load:
+Feb 11 19:00:30 Dr42D kernel: [    0.423388] ACPI: SSDT 0xFFFF9600EECC9000 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.423680] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 11 19:00:30 Dr42D kernel: [    0.425026] ACPI: Dynamic OEM Table Load:
+Feb 11 19:00:30 Dr42D kernel: [    0.425031] ACPI: SSDT 0xFFFF9600EECC6000 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.425907] ACPI: Dynamic OEM Table Load:
+Feb 11 19:00:30 Dr42D kernel: [    0.425913] ACPI: SSDT 0xFFFF9600EF316800 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.426461] ACPI: Dynamic OEM Table Load:
+Feb 11 19:00:30 Dr42D kernel: [    0.426465] ACPI: SSDT 0xFFFF9600EED7CC00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.428710] ACPI : EC: EC started
+Feb 11 19:00:30 Dr42D kernel: [    0.428710] ACPI : EC: interrupt blocked
+Feb 11 19:00:30 Dr42D kernel: [    0.430081] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 11 19:00:30 Dr42D kernel: [    0.430082] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 11 19:00:30 Dr42D kernel: [    0.430083] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 11 19:00:30 Dr42D kernel: [    0.430084] ACPI: Interpreter enabled
+Feb 11 19:00:30 Dr42D kernel: [    0.430127] ACPI: (supports S0 S3 S4 S5)
+Feb 11 19:00:30 Dr42D kernel: [    0.430128] ACPI: Using IOAPIC for interrupt routing
+Feb 11 19:00:30 Dr42D kernel: [    0.440890] ACPI: Power Resource [PG00] (on)
+Feb 11 19:00:30 Dr42D kernel: [    0.506697] ACPI: Power Resource [FN00] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.506775] ACPI: Power Resource [FN01] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.506851] ACPI: Power Resource [FN02] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.506928] ACPI: Power Resource [FN03] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.507003] ACPI: Power Resource [FN04] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.508276] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 11 19:00:30 Dr42D kernel: [    0.561333] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561388] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561438] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561488] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561537] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561586] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561635] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561684] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.562236] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 11 19:00:30 Dr42D kernel: [    0.562396] ACPI : EC: interrupt unblocked
+Feb 11 19:00:30 Dr42D kernel: [    0.562408] ACPI : EC: event unblocked
+Feb 11 19:00:30 Dr42D kernel: [    0.562438] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 11 19:00:30 Dr42D kernel: [    0.562439] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 11 19:00:30 Dr42D kernel: [    1.025950] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 11 19:00:30 Dr42D kernel: [    1.026058] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 11 19:00:30 Dr42D kernel: [    1.029947] ACPI: bus type USB registered
+Feb 11 19:00:30 Dr42D kernel: [    2.394499] ACPI: Sleep Button [SLPB]
+Feb 11 19:00:30 Dr42D kernel: [    2.394829] ACPI: Power Button [PWRB]
+Feb 11 19:00:30 Dr42D kernel: [    2.404973] ACPI: AC Adapter [ADP1] (on-line)
+Feb 11 19:00:30 Dr42D kernel: [    2.441976] ACPI: Battery Slot [BAT0] (battery present)
+Feb 11 19:00:30 Dr42D kernel: [    2.455422] ACPI: Lid Switch [LID0]
+Feb 11 19:00:30 Dr42D kernel: [    2.455460] ACPI: Power Button [PWRF]
+Feb 11 19:00:30 Dr42D kernel: [    2.561070] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 11 19:00:30 Dr42D kernel: [    2.561420] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 11 19:35:27 Dr42D kernel: [   30.792381] ACPI : EC: event blocked
+Feb 11 19:35:27 Dr42D kernel: [   31.139828] ACPI : EC: interrupt blocked
+Feb 11 19:35:27 Dr42D kernel: [   31.208955] ACPI: Preparing to enter system sleep state S3
+Feb 11 19:35:27 Dr42D kernel: [   31.247437] ACPI : EC: EC stopped
+Feb 11 19:35:27 Dr42D kernel: [   31.256095] ACPI: Low-level resume complete
+Feb 11 19:35:27 Dr42D kernel: [   31.256193] ACPI : EC: EC started
+Feb 11 19:35:27 Dr42D kernel: [   31.268242] ACPI: Waking up from system sleep state S3
+Feb 11 19:35:27 Dr42D kernel: [   31.314963] ACPI : EC: interrupt unblocked
+Feb 11 19:35:27 Dr42D kernel: [   31.385473] ACPI : EC: event unblocked
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 12 13:59:48 Dr42D kernel: [    0.000038] ACPI: Core revision 20160831
+Feb 12 13:59:48 Dr42D kernel: [    0.037102] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 12 13:59:48 Dr42D kernel: [    0.392760] ACPI: bus type PCI registered
+Feb 12 13:59:48 Dr42D kernel: [    0.409025] ACPI: Added _OSI(Module Device)
+Feb 12 13:59:48 Dr42D kernel: [    0.409026] ACPI: Added _OSI(Processor Device)
+Feb 12 13:59:48 Dr42D kernel: [    0.409027] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 12 13:59:48 Dr42D kernel: [    0.409027] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 12 13:59:48 Dr42D kernel: [    0.410194] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 12 13:59:48 Dr42D kernel: [    0.420809] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 12 13:59:48 Dr42D kernel: [    0.425642] ACPI: Dynamic OEM Table Load:
+Feb 12 13:59:48 Dr42D kernel: [    0.425648] ACPI: SSDT 0xFFFF89DC6F3BE000 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.425941] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 12 13:59:48 Dr42D kernel: [    0.427287] ACPI: Dynamic OEM Table Load:
+Feb 12 13:59:48 Dr42D kernel: [    0.427292] ACPI: SSDT 0xFFFF89DC6ED0D800 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.428172] ACPI: Dynamic OEM Table Load:
+Feb 12 13:59:48 Dr42D kernel: [    0.428177] ACPI: SSDT 0xFFFF89DC6F3BE800 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.428723] ACPI: Dynamic OEM Table Load:
+Feb 12 13:59:48 Dr42D kernel: [    0.428727] ACPI: SSDT 0xFFFF89DC6ED7AA00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.430975] ACPI : EC: EC started
+Feb 12 13:59:48 Dr42D kernel: [    0.430976] ACPI : EC: interrupt blocked
+Feb 12 13:59:48 Dr42D kernel: [    0.432335] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 12 13:59:48 Dr42D kernel: [    0.432337] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 12 13:59:48 Dr42D kernel: [    0.432338] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 12 13:59:48 Dr42D kernel: [    0.432339] ACPI: Interpreter enabled
+Feb 12 13:59:48 Dr42D kernel: [    0.432382] ACPI: (supports S0 S3 S4 S5)
+Feb 12 13:59:48 Dr42D kernel: [    0.432383] ACPI: Using IOAPIC for interrupt routing
+Feb 12 13:59:48 Dr42D kernel: [    0.443149] ACPI: Power Resource [PG00] (on)
+Feb 12 13:59:48 Dr42D kernel: [    0.509004] ACPI: Power Resource [FN00] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.509083] ACPI: Power Resource [FN01] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.509159] ACPI: Power Resource [FN02] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.509236] ACPI: Power Resource [FN03] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.509311] ACPI: Power Resource [FN04] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.510583] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 12 13:59:48 Dr42D kernel: [    0.563628] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563681] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563731] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563781] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563830] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563879] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563929] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563978] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.564523] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 12 13:59:48 Dr42D kernel: [    0.564688] ACPI : EC: interrupt unblocked
+Feb 12 13:59:48 Dr42D kernel: [    0.564700] ACPI : EC: event unblocked
+Feb 12 13:59:48 Dr42D kernel: [    0.564730] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 12 13:59:48 Dr42D kernel: [    0.564731] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 12 13:59:48 Dr42D kernel: [    1.026444] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 12 13:59:48 Dr42D kernel: [    1.026551] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 12 13:59:48 Dr42D kernel: [    1.028683] ACPI: bus type USB registered
+Feb 12 13:59:48 Dr42D kernel: [    2.469756] ACPI: Sleep Button [SLPB]
+Feb 12 13:59:48 Dr42D kernel: [    2.469796] ACPI: Power Button [PWRB]
+Feb 12 13:59:48 Dr42D kernel: [    2.480693] ACPI: AC Adapter [ADP1] (on-line)
+Feb 12 13:59:48 Dr42D kernel: [    2.518498] ACPI: Battery Slot [BAT0] (battery present)
+Feb 12 13:59:48 Dr42D kernel: [    2.533616] ACPI: Lid Switch [LID0]
+Feb 12 13:59:48 Dr42D kernel: [    2.533685] ACPI: Power Button [PWRF]
+Feb 12 13:59:48 Dr42D kernel: [    2.629903] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 12 13:59:48 Dr42D kernel: [    2.630438] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 13 00:33:16 Dr42D kernel: [    0.000038] ACPI: Core revision 20160831
+Feb 13 00:33:16 Dr42D kernel: [    0.036765] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 13 00:33:16 Dr42D kernel: [    0.397244] ACPI: bus type PCI registered
+Feb 13 00:33:16 Dr42D kernel: [    0.413516] ACPI: Added _OSI(Module Device)
+Feb 13 00:33:16 Dr42D kernel: [    0.413517] ACPI: Added _OSI(Processor Device)
+Feb 13 00:33:16 Dr42D kernel: [    0.413518] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 13 00:33:16 Dr42D kernel: [    0.413519] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 13 00:33:16 Dr42D kernel: [    0.414689] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 13 00:33:16 Dr42D kernel: [    0.425304] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 13 00:33:16 Dr42D kernel: [    0.430064] ACPI: Dynamic OEM Table Load:
+Feb 13 00:33:16 Dr42D kernel: [    0.430070] ACPI: SSDT 0xFFFF97D9EED2B800 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.430361] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 13 00:33:16 Dr42D kernel: [    0.431695] ACPI: Dynamic OEM Table Load:
+Feb 13 00:33:16 Dr42D kernel: [    0.431700] ACPI: SSDT 0xFFFF97D9EED26800 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.432569] ACPI: Dynamic OEM Table Load:
+Feb 13 00:33:16 Dr42D kernel: [    0.432574] ACPI: SSDT 0xFFFF97D9EED2B000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.433110] ACPI: Dynamic OEM Table Load:
+Feb 13 00:33:16 Dr42D kernel: [    0.433114] ACPI: SSDT 0xFFFF97D9EED29E00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.435345] ACPI : EC: EC started
+Feb 13 00:33:16 Dr42D kernel: [    0.435345] ACPI : EC: interrupt blocked
+Feb 13 00:33:16 Dr42D kernel: [    0.436890] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 13 00:33:16 Dr42D kernel: [    0.436892] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 13 00:33:16 Dr42D kernel: [    0.436893] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 13 00:33:16 Dr42D kernel: [    0.436893] ACPI: Interpreter enabled
+Feb 13 00:33:16 Dr42D kernel: [    0.436936] ACPI: (supports S0 S3 S4 S5)
+Feb 13 00:33:16 Dr42D kernel: [    0.436937] ACPI: Using IOAPIC for interrupt routing
+Feb 13 00:33:16 Dr42D kernel: [    0.447633] ACPI: Power Resource [PG00] (on)
+Feb 13 00:33:16 Dr42D kernel: [    0.518117] ACPI: Power Resource [FN00] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.518196] ACPI: Power Resource [FN01] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.518274] ACPI: Power Resource [FN02] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.518350] ACPI: Power Resource [FN03] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.518427] ACPI: Power Resource [FN04] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.519697] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 13 00:33:16 Dr42D kernel: [    0.576776] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.576829] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.576879] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.576929] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.576979] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.577028] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.577077] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.577126] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.577677] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 13 00:33:16 Dr42D kernel: [    0.577836] ACPI : EC: interrupt unblocked
+Feb 13 00:33:16 Dr42D kernel: [    0.577848] ACPI : EC: event unblocked
+Feb 13 00:33:16 Dr42D kernel: [    0.577878] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 13 00:33:16 Dr42D kernel: [    0.577879] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 13 00:33:16 Dr42D kernel: [    1.039971] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 13 00:33:16 Dr42D kernel: [    1.040076] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 13 00:33:16 Dr42D kernel: [    1.042084] ACPI: bus type USB registered
+Feb 13 00:33:16 Dr42D kernel: [    2.630210] ACPI: Sleep Button [SLPB]
+Feb 13 00:33:16 Dr42D kernel: [    2.630481] ACPI: Power Button [PWRB]
+Feb 13 00:33:16 Dr42D kernel: [    2.636239] ACPI: AC Adapter [ADP1] (on-line)
+Feb 13 00:33:16 Dr42D kernel: [    2.676159] ACPI: Battery Slot [BAT0] (battery present)
+Feb 13 00:33:16 Dr42D kernel: [    2.690683] ACPI: Lid Switch [LID0]
+Feb 13 00:33:16 Dr42D kernel: [    2.690725] ACPI: Power Button [PWRF]
+Feb 13 00:33:16 Dr42D kernel: [    2.808228] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 13 00:33:16 Dr42D kernel: [    2.808873] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 13 10:07:54 Dr42D kernel: [    0.000038] ACPI: Core revision 20160831
+Feb 13 10:07:54 Dr42D kernel: [    0.036426] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 13 10:07:54 Dr42D kernel: [    0.389877] ACPI: bus type PCI registered
+Feb 13 10:07:54 Dr42D kernel: [    0.406158] ACPI: Added _OSI(Module Device)
+Feb 13 10:07:54 Dr42D kernel: [    0.406159] ACPI: Added _OSI(Processor Device)
+Feb 13 10:07:54 Dr42D kernel: [    0.406160] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 13 10:07:54 Dr42D kernel: [    0.406160] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 13 10:07:54 Dr42D kernel: [    0.407317] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 13 10:07:54 Dr42D kernel: [    0.417894] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 13 10:07:54 Dr42D kernel: [    0.422744] ACPI: Dynamic OEM Table Load:
+Feb 13 10:07:54 Dr42D kernel: [    0.422751] ACPI: SSDT 0xFFFF97CF2ECC9800 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.423041] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 13 10:07:54 Dr42D kernel: [    0.424384] ACPI: Dynamic OEM Table Load:
+Feb 13 10:07:54 Dr42D kernel: [    0.424389] ACPI: SSDT 0xFFFF97CF2ECC6C00 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.425261] ACPI: Dynamic OEM Table Load:
+Feb 13 10:07:54 Dr42D kernel: [    0.425266] ACPI: SSDT 0xFFFF97CF2F316800 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.425805] ACPI: Dynamic OEM Table Load:
+Feb 13 10:07:54 Dr42D kernel: [    0.425809] ACPI: SSDT 0xFFFF97CF2ED7C200 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.428043] ACPI : EC: EC started
+Feb 13 10:07:54 Dr42D kernel: [    0.428044] ACPI : EC: interrupt blocked
+Feb 13 10:07:54 Dr42D kernel: [    0.429428] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 13 10:07:54 Dr42D kernel: [    0.429429] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 13 10:07:54 Dr42D kernel: [    0.429430] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 13 10:07:54 Dr42D kernel: [    0.429431] ACPI: Interpreter enabled
+Feb 13 10:07:54 Dr42D kernel: [    0.429474] ACPI: (supports S0 S3 S4 S5)
+Feb 13 10:07:54 Dr42D kernel: [    0.429475] ACPI: Using IOAPIC for interrupt routing
+Feb 13 10:07:54 Dr42D kernel: [    0.440164] ACPI: Power Resource [PG00] (on)
+Feb 13 10:07:54 Dr42D kernel: [    0.506118] ACPI: Power Resource [FN00] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.506197] ACPI: Power Resource [FN01] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.506275] ACPI: Power Resource [FN02] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.506352] ACPI: Power Resource [FN03] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.506429] ACPI: Power Resource [FN04] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.507694] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 13 10:07:54 Dr42D kernel: [    0.560729] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560783] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560833] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560883] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560932] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560982] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.561031] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.561079] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.561626] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 13 10:07:54 Dr42D kernel: [    0.561786] ACPI : EC: interrupt unblocked
+Feb 13 10:07:54 Dr42D kernel: [    0.561798] ACPI : EC: event unblocked
+Feb 13 10:07:54 Dr42D kernel: [    0.561828] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 13 10:07:54 Dr42D kernel: [    0.561829] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 13 10:07:54 Dr42D kernel: [    1.024667] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 13 10:07:54 Dr42D kernel: [    1.024772] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 13 10:07:54 Dr42D kernel: [    1.026642] ACPI: bus type USB registered
+Feb 13 10:07:54 Dr42D kernel: [    2.805397] ACPI: Sleep Button [SLPB]
+Feb 13 10:07:54 Dr42D kernel: [    2.806457] ACPI: Power Button [PWRB]
+Feb 13 10:07:54 Dr42D kernel: [    2.819735] ACPI: AC Adapter [ADP1] (on-line)
+Feb 13 10:07:54 Dr42D kernel: [    2.855823] ACPI: Battery Slot [BAT0] (battery present)
+Feb 13 10:07:54 Dr42D kernel: [    2.870962] ACPI: Lid Switch [LID0]
+Feb 13 10:07:54 Dr42D kernel: [    2.871036] ACPI: Power Button [PWRF]
+Feb 13 10:07:54 Dr42D kernel: [    2.944155] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 13 10:07:54 Dr42D kernel: [    2.944604] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 13 16:04:39 Dr42D kernel: [ 2938.945651] ACPI : EC: event blocked
+Feb 13 16:04:39 Dr42D kernel: [ 2939.265475] ACPI : EC: interrupt blocked
+Feb 13 16:04:39 Dr42D kernel: [ 2939.285409] ACPI: Preparing to enter system sleep state S4
+Feb 13 16:04:39 Dr42D kernel: [ 2939.285858] ACPI : EC: EC stopped
+Feb 13 16:04:39 Dr42D kernel: [ 2939.302516] ACPI : EC: EC started
+Feb 13 16:04:39 Dr42D kernel: [ 2939.315539] ACPI: Waking up from system sleep state S4
+Feb 13 16:04:39 Dr42D kernel: [ 2939.319815] ACPI : EC: interrupt unblocked
+Feb 13 16:04:39 Dr42D kernel: [ 2939.498613] ACPI : EC: event unblocked
+Feb 13 16:04:39 Dr42D kernel: [ 2939.498856] ACPI : button: The lid device is not compliant to SW_LID.
+Feb 17 02:40:11 Dr42D kernel: [114487.126768] ACPI : EC: event blocked
+Feb 17 02:40:11 Dr42D kernel: [114487.437604] ACPI : EC: interrupt blocked
+Feb 17 02:40:11 Dr42D kernel: [114487.457753] ACPI: Preparing to enter system sleep state S4
+Feb 17 02:40:11 Dr42D kernel: [114487.458316] ACPI : EC: EC stopped
+Feb 17 02:40:11 Dr42D kernel: [114487.471650] ACPI : EC: EC started
+Feb 17 02:40:11 Dr42D kernel: [114487.484873] ACPI: Waking up from system sleep state S4
+Feb 17 02:40:11 Dr42D kernel: [114487.489009] ACPI : EC: interrupt unblocked
+Feb 17 02:40:11 Dr42D kernel: [114487.667092] ACPI : EC: event unblocked
+Feb 17 11:50:01 Dr42D kernel: [119473.374034] ACPI : EC: event blocked
+Feb 17 11:50:01 Dr42D kernel: [119474.278423] ACPI : EC: interrupt blocked
+Feb 17 11:50:01 Dr42D kernel: [119474.347513] ACPI: Preparing to enter system sleep state S3
+Feb 17 11:50:01 Dr42D kernel: [119474.386034] ACPI : EC: EC stopped
+Feb 17 11:50:01 Dr42D kernel: [119474.395302] ACPI: Low-level resume complete
+Feb 17 11:50:01 Dr42D kernel: [119474.395399] ACPI : EC: EC started
+Feb 17 11:50:01 Dr42D kernel: [119474.407458] ACPI: Waking up from system sleep state S3
+Feb 17 11:50:01 Dr42D kernel: [119474.454130] ACPI : EC: interrupt unblocked
+Feb 17 11:50:01 Dr42D kernel: [119474.521803] ACPI : EC: event unblocked
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 18 23:49:11 Dr42D kernel: [    0.000043] ACPI: Core revision 20160831
+Feb 18 23:49:11 Dr42D kernel: [    0.037010] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 18 23:49:11 Dr42D kernel: [    0.395615] ACPI: bus type PCI registered
+Feb 18 23:49:11 Dr42D kernel: [    0.411892] ACPI: Added _OSI(Module Device)
+Feb 18 23:49:11 Dr42D kernel: [    0.411893] ACPI: Added _OSI(Processor Device)
+Feb 18 23:49:11 Dr42D kernel: [    0.411893] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 18 23:49:11 Dr42D kernel: [    0.411894] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 18 23:49:11 Dr42D kernel: [    0.413068] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 18 23:49:11 Dr42D kernel: [    0.423708] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 18 23:49:11 Dr42D kernel: [    0.428592] ACPI: Dynamic OEM Table Load:
+Feb 18 23:49:11 Dr42D kernel: [    0.428599] ACPI: SSDT 0xFFFF92AF2ECCA800 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.428892] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 18 23:49:11 Dr42D kernel: [    0.430242] ACPI: Dynamic OEM Table Load:
+Feb 18 23:49:11 Dr42D kernel: [    0.430247] ACPI: SSDT 0xFFFF92AF2ECC7800 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.431124] ACPI: Dynamic OEM Table Load:
+Feb 18 23:49:11 Dr42D kernel: [    0.431129] ACPI: SSDT 0xFFFF92AF2F316000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.431677] ACPI: Dynamic OEM Table Load:
+Feb 18 23:49:11 Dr42D kernel: [    0.431682] ACPI: SSDT 0xFFFF92AF2ED7CA00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.433927] ACPI : EC: EC started
+Feb 18 23:49:11 Dr42D kernel: [    0.433928] ACPI : EC: interrupt blocked
+Feb 18 23:49:11 Dr42D kernel: [    0.435518] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 18 23:49:11 Dr42D kernel: [    0.435519] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 18 23:49:11 Dr42D kernel: [    0.435521] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 18 23:49:11 Dr42D kernel: [    0.435521] ACPI: Interpreter enabled
+Feb 18 23:49:11 Dr42D kernel: [    0.435568] ACPI: (supports S0 S3 S4 S5)
+Feb 18 23:49:11 Dr42D kernel: [    0.435568] ACPI: Using IOAPIC for interrupt routing
+Feb 18 23:49:11 Dr42D kernel: [    0.446396] ACPI: Power Resource [PG00] (on)
+Feb 18 23:49:11 Dr42D kernel: [    0.511856] ACPI: Power Resource [FN00] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.511935] ACPI: Power Resource [FN01] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.512015] ACPI: Power Resource [FN02] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.512092] ACPI: Power Resource [FN03] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.512169] ACPI: Power Resource [FN04] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.513437] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 18 23:49:11 Dr42D kernel: [    0.566491] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566545] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566596] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566645] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566695] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566744] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566793] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566843] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.567389] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 18 23:49:11 Dr42D kernel: [    0.567555] ACPI : EC: interrupt unblocked
+Feb 18 23:49:11 Dr42D kernel: [    0.567567] ACPI : EC: event unblocked
+Feb 18 23:49:11 Dr42D kernel: [    0.567597] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 18 23:49:11 Dr42D kernel: [    0.567598] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 18 23:49:11 Dr42D kernel: [    1.032654] ACPI: bus type USB registered
+Feb 18 23:49:11 Dr42D kernel: [    1.041661] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 18 23:49:11 Dr42D kernel: [    1.041885] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 18 23:49:11 Dr42D kernel: [    2.512586] ACPI: Sleep Button [SLPB]
+Feb 18 23:49:11 Dr42D kernel: [    2.512623] ACPI: Power Button [PWRB]
+Feb 18 23:49:11 Dr42D kernel: [    2.528502] ACPI: AC Adapter [ADP1] (on-line)
+Feb 18 23:49:11 Dr42D kernel: [    2.558082] ACPI: Battery Slot [BAT0] (battery present)
+Feb 18 23:49:11 Dr42D kernel: [    2.572383] ACPI: Lid Switch [LID0]
+Feb 18 23:49:11 Dr42D kernel: [    2.572430] ACPI: Power Button [PWRF]
+Feb 18 23:49:11 Dr42D kernel: [    2.663697] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 18 23:49:11 Dr42D kernel: [    2.665184] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 11 19:00:30 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 11 19:00:30 Dr42D kernel: [    0.000038] ACPI: Core revision 20160831
+Feb 11 19:00:30 Dr42D kernel: [    0.037168] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 11 19:00:30 Dr42D kernel: [    0.390456] ACPI: bus type PCI registered
+Feb 11 19:00:30 Dr42D kernel: [    0.406732] ACPI: Added _OSI(Module Device)
+Feb 11 19:00:30 Dr42D kernel: [    0.406733] ACPI: Added _OSI(Processor Device)
+Feb 11 19:00:30 Dr42D kernel: [    0.406734] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 11 19:00:30 Dr42D kernel: [    0.406735] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 11 19:00:30 Dr42D kernel: [    0.407903] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 11 19:00:30 Dr42D kernel: [    0.418543] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 11 19:00:30 Dr42D kernel: [    0.423382] ACPI: Dynamic OEM Table Load:
+Feb 11 19:00:30 Dr42D kernel: [    0.423388] ACPI: SSDT 0xFFFF9600EECC9000 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.423680] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 11 19:00:30 Dr42D kernel: [    0.425026] ACPI: Dynamic OEM Table Load:
+Feb 11 19:00:30 Dr42D kernel: [    0.425031] ACPI: SSDT 0xFFFF9600EECC6000 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.425907] ACPI: Dynamic OEM Table Load:
+Feb 11 19:00:30 Dr42D kernel: [    0.425913] ACPI: SSDT 0xFFFF9600EF316800 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.426461] ACPI: Dynamic OEM Table Load:
+Feb 11 19:00:30 Dr42D kernel: [    0.426465] ACPI: SSDT 0xFFFF9600EED7CC00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 11 19:00:30 Dr42D kernel: [    0.428710] ACPI : EC: EC started
+Feb 11 19:00:30 Dr42D kernel: [    0.428710] ACPI : EC: interrupt blocked
+Feb 11 19:00:30 Dr42D kernel: [    0.430081] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 11 19:00:30 Dr42D kernel: [    0.430082] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 11 19:00:30 Dr42D kernel: [    0.430083] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 11 19:00:30 Dr42D kernel: [    0.430084] ACPI: Interpreter enabled
+Feb 11 19:00:30 Dr42D kernel: [    0.430127] ACPI: (supports S0 S3 S4 S5)
+Feb 11 19:00:30 Dr42D kernel: [    0.430128] ACPI: Using IOAPIC for interrupt routing
+Feb 11 19:00:30 Dr42D kernel: [    0.440890] ACPI: Power Resource [PG00] (on)
+Feb 11 19:00:30 Dr42D kernel: [    0.506697] ACPI: Power Resource [FN00] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.506775] ACPI: Power Resource [FN01] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.506851] ACPI: Power Resource [FN02] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.506928] ACPI: Power Resource [FN03] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.507003] ACPI: Power Resource [FN04] (off)
+Feb 11 19:00:30 Dr42D kernel: [    0.508276] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 11 19:00:30 Dr42D kernel: [    0.561333] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561388] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561438] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561488] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561537] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561586] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561635] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.561684] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 11 19:00:30 Dr42D kernel: [    0.562236] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 11 19:00:30 Dr42D kernel: [    0.562396] ACPI : EC: interrupt unblocked
+Feb 11 19:00:30 Dr42D kernel: [    0.562408] ACPI : EC: event unblocked
+Feb 11 19:00:30 Dr42D kernel: [    0.562438] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 11 19:00:30 Dr42D kernel: [    0.562439] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 11 19:00:30 Dr42D kernel: [    1.025950] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 11 19:00:30 Dr42D kernel: [    1.026058] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 11 19:00:30 Dr42D kernel: [    1.029947] ACPI: bus type USB registered
+Feb 11 19:00:30 Dr42D kernel: [    2.394499] ACPI: Sleep Button [SLPB]
+Feb 11 19:00:30 Dr42D kernel: [    2.394829] ACPI: Power Button [PWRB]
+Feb 11 19:00:30 Dr42D kernel: [    2.404973] ACPI: AC Adapter [ADP1] (on-line)
+Feb 11 19:00:30 Dr42D kernel: [    2.441976] ACPI: Battery Slot [BAT0] (battery present)
+Feb 11 19:00:30 Dr42D kernel: [    2.455422] ACPI: Lid Switch [LID0]
+Feb 11 19:00:30 Dr42D kernel: [    2.455460] ACPI: Power Button [PWRF]
+Feb 11 19:00:30 Dr42D kernel: [    2.561070] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 11 19:00:30 Dr42D kernel: [    2.561420] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 11 19:35:27 Dr42D kernel: [   30.792381] ACPI : EC: event blocked
+Feb 11 19:35:27 Dr42D kernel: [   31.139828] ACPI : EC: interrupt blocked
+Feb 11 19:35:27 Dr42D kernel: [   31.208955] ACPI: Preparing to enter system sleep state S3
+Feb 11 19:35:27 Dr42D kernel: [   31.247437] ACPI : EC: EC stopped
+Feb 11 19:35:27 Dr42D kernel: [   31.256095] ACPI: Low-level resume complete
+Feb 11 19:35:27 Dr42D kernel: [   31.256193] ACPI : EC: EC started
+Feb 11 19:35:27 Dr42D kernel: [   31.268242] ACPI: Waking up from system sleep state S3
+Feb 11 19:35:27 Dr42D kernel: [   31.314963] ACPI : EC: interrupt unblocked
+Feb 11 19:35:27 Dr42D kernel: [   31.385473] ACPI : EC: event unblocked
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 12 13:59:48 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 12 13:59:48 Dr42D kernel: [    0.000038] ACPI: Core revision 20160831
+Feb 12 13:59:48 Dr42D kernel: [    0.037102] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 12 13:59:48 Dr42D kernel: [    0.392760] ACPI: bus type PCI registered
+Feb 12 13:59:48 Dr42D kernel: [    0.409025] ACPI: Added _OSI(Module Device)
+Feb 12 13:59:48 Dr42D kernel: [    0.409026] ACPI: Added _OSI(Processor Device)
+Feb 12 13:59:48 Dr42D kernel: [    0.409027] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 12 13:59:48 Dr42D kernel: [    0.409027] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 12 13:59:48 Dr42D kernel: [    0.410194] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 12 13:59:48 Dr42D kernel: [    0.420809] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 12 13:59:48 Dr42D kernel: [    0.425642] ACPI: Dynamic OEM Table Load:
+Feb 12 13:59:48 Dr42D kernel: [    0.425648] ACPI: SSDT 0xFFFF89DC6F3BE000 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.425941] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 12 13:59:48 Dr42D kernel: [    0.427287] ACPI: Dynamic OEM Table Load:
+Feb 12 13:59:48 Dr42D kernel: [    0.427292] ACPI: SSDT 0xFFFF89DC6ED0D800 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.428172] ACPI: Dynamic OEM Table Load:
+Feb 12 13:59:48 Dr42D kernel: [    0.428177] ACPI: SSDT 0xFFFF89DC6F3BE800 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.428723] ACPI: Dynamic OEM Table Load:
+Feb 12 13:59:48 Dr42D kernel: [    0.428727] ACPI: SSDT 0xFFFF89DC6ED7AA00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 12 13:59:48 Dr42D kernel: [    0.430975] ACPI : EC: EC started
+Feb 12 13:59:48 Dr42D kernel: [    0.430976] ACPI : EC: interrupt blocked
+Feb 12 13:59:48 Dr42D kernel: [    0.432335] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 12 13:59:48 Dr42D kernel: [    0.432337] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 12 13:59:48 Dr42D kernel: [    0.432338] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 12 13:59:48 Dr42D kernel: [    0.432339] ACPI: Interpreter enabled
+Feb 12 13:59:48 Dr42D kernel: [    0.432382] ACPI: (supports S0 S3 S4 S5)
+Feb 12 13:59:48 Dr42D kernel: [    0.432383] ACPI: Using IOAPIC for interrupt routing
+Feb 12 13:59:48 Dr42D kernel: [    0.443149] ACPI: Power Resource [PG00] (on)
+Feb 12 13:59:48 Dr42D kernel: [    0.509004] ACPI: Power Resource [FN00] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.509083] ACPI: Power Resource [FN01] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.509159] ACPI: Power Resource [FN02] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.509236] ACPI: Power Resource [FN03] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.509311] ACPI: Power Resource [FN04] (off)
+Feb 12 13:59:48 Dr42D kernel: [    0.510583] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 12 13:59:48 Dr42D kernel: [    0.563628] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563681] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563731] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563781] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563830] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563879] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563929] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.563978] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 12 13:59:48 Dr42D kernel: [    0.564523] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 12 13:59:48 Dr42D kernel: [    0.564688] ACPI : EC: interrupt unblocked
+Feb 12 13:59:48 Dr42D kernel: [    0.564700] ACPI : EC: event unblocked
+Feb 12 13:59:48 Dr42D kernel: [    0.564730] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 12 13:59:48 Dr42D kernel: [    0.564731] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 12 13:59:48 Dr42D kernel: [    1.026444] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 12 13:59:48 Dr42D kernel: [    1.026551] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 12 13:59:48 Dr42D kernel: [    1.028683] ACPI: bus type USB registered
+Feb 12 13:59:48 Dr42D kernel: [    2.469756] ACPI: Sleep Button [SLPB]
+Feb 12 13:59:48 Dr42D kernel: [    2.469796] ACPI: Power Button [PWRB]
+Feb 12 13:59:48 Dr42D kernel: [    2.480693] ACPI: AC Adapter [ADP1] (on-line)
+Feb 12 13:59:48 Dr42D kernel: [    2.518498] ACPI: Battery Slot [BAT0] (battery present)
+Feb 12 13:59:48 Dr42D kernel: [    2.533616] ACPI: Lid Switch [LID0]
+Feb 12 13:59:48 Dr42D kernel: [    2.533685] ACPI: Power Button [PWRF]
+Feb 12 13:59:48 Dr42D kernel: [    2.629903] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 12 13:59:48 Dr42D kernel: [    2.630438] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 13 00:33:16 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 13 00:33:16 Dr42D kernel: [    0.000038] ACPI: Core revision 20160831
+Feb 13 00:33:16 Dr42D kernel: [    0.036765] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 13 00:33:16 Dr42D kernel: [    0.397244] ACPI: bus type PCI registered
+Feb 13 00:33:16 Dr42D kernel: [    0.413516] ACPI: Added _OSI(Module Device)
+Feb 13 00:33:16 Dr42D kernel: [    0.413517] ACPI: Added _OSI(Processor Device)
+Feb 13 00:33:16 Dr42D kernel: [    0.413518] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 13 00:33:16 Dr42D kernel: [    0.413519] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 13 00:33:16 Dr42D kernel: [    0.414689] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 13 00:33:16 Dr42D kernel: [    0.425304] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 13 00:33:16 Dr42D kernel: [    0.430064] ACPI: Dynamic OEM Table Load:
+Feb 13 00:33:16 Dr42D kernel: [    0.430070] ACPI: SSDT 0xFFFF97D9EED2B800 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.430361] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 13 00:33:16 Dr42D kernel: [    0.431695] ACPI: Dynamic OEM Table Load:
+Feb 13 00:33:16 Dr42D kernel: [    0.431700] ACPI: SSDT 0xFFFF97D9EED26800 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.432569] ACPI: Dynamic OEM Table Load:
+Feb 13 00:33:16 Dr42D kernel: [    0.432574] ACPI: SSDT 0xFFFF97D9EED2B000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.433110] ACPI: Dynamic OEM Table Load:
+Feb 13 00:33:16 Dr42D kernel: [    0.433114] ACPI: SSDT 0xFFFF97D9EED29E00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 13 00:33:16 Dr42D kernel: [    0.435345] ACPI : EC: EC started
+Feb 13 00:33:16 Dr42D kernel: [    0.435345] ACPI : EC: interrupt blocked
+Feb 13 00:33:16 Dr42D kernel: [    0.436890] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 13 00:33:16 Dr42D kernel: [    0.436892] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 13 00:33:16 Dr42D kernel: [    0.436893] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 13 00:33:16 Dr42D kernel: [    0.436893] ACPI: Interpreter enabled
+Feb 13 00:33:16 Dr42D kernel: [    0.436936] ACPI: (supports S0 S3 S4 S5)
+Feb 13 00:33:16 Dr42D kernel: [    0.436937] ACPI: Using IOAPIC for interrupt routing
+Feb 13 00:33:16 Dr42D kernel: [    0.447633] ACPI: Power Resource [PG00] (on)
+Feb 13 00:33:16 Dr42D kernel: [    0.518117] ACPI: Power Resource [FN00] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.518196] ACPI: Power Resource [FN01] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.518274] ACPI: Power Resource [FN02] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.518350] ACPI: Power Resource [FN03] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.518427] ACPI: Power Resource [FN04] (off)
+Feb 13 00:33:16 Dr42D kernel: [    0.519697] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 13 00:33:16 Dr42D kernel: [    0.576776] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.576829] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.576879] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.576929] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.576979] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.577028] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.577077] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.577126] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 00:33:16 Dr42D kernel: [    0.577677] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 13 00:33:16 Dr42D kernel: [    0.577836] ACPI : EC: interrupt unblocked
+Feb 13 00:33:16 Dr42D kernel: [    0.577848] ACPI : EC: event unblocked
+Feb 13 00:33:16 Dr42D kernel: [    0.577878] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 13 00:33:16 Dr42D kernel: [    0.577879] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 13 00:33:16 Dr42D kernel: [    1.039971] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 13 00:33:16 Dr42D kernel: [    1.040076] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 13 00:33:16 Dr42D kernel: [    1.042084] ACPI: bus type USB registered
+Feb 13 00:33:16 Dr42D kernel: [    2.630210] ACPI: Sleep Button [SLPB]
+Feb 13 00:33:16 Dr42D kernel: [    2.630481] ACPI: Power Button [PWRB]
+Feb 13 00:33:16 Dr42D kernel: [    2.636239] ACPI: AC Adapter [ADP1] (on-line)
+Feb 13 00:33:16 Dr42D kernel: [    2.676159] ACPI: Battery Slot [BAT0] (battery present)
+Feb 13 00:33:16 Dr42D kernel: [    2.690683] ACPI: Lid Switch [LID0]
+Feb 13 00:33:16 Dr42D kernel: [    2.690725] ACPI: Power Button [PWRF]
+Feb 13 00:33:16 Dr42D kernel: [    2.808228] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 13 00:33:16 Dr42D kernel: [    2.808873] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 13 10:07:54 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 13 10:07:54 Dr42D kernel: [    0.000038] ACPI: Core revision 20160831
+Feb 13 10:07:54 Dr42D kernel: [    0.036426] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 13 10:07:54 Dr42D kernel: [    0.389877] ACPI: bus type PCI registered
+Feb 13 10:07:54 Dr42D kernel: [    0.406158] ACPI: Added _OSI(Module Device)
+Feb 13 10:07:54 Dr42D kernel: [    0.406159] ACPI: Added _OSI(Processor Device)
+Feb 13 10:07:54 Dr42D kernel: [    0.406160] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 13 10:07:54 Dr42D kernel: [    0.406160] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 13 10:07:54 Dr42D kernel: [    0.407317] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 13 10:07:54 Dr42D kernel: [    0.417894] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 13 10:07:54 Dr42D kernel: [    0.422744] ACPI: Dynamic OEM Table Load:
+Feb 13 10:07:54 Dr42D kernel: [    0.422751] ACPI: SSDT 0xFFFF97CF2ECC9800 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.423041] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 13 10:07:54 Dr42D kernel: [    0.424384] ACPI: Dynamic OEM Table Load:
+Feb 13 10:07:54 Dr42D kernel: [    0.424389] ACPI: SSDT 0xFFFF97CF2ECC6C00 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.425261] ACPI: Dynamic OEM Table Load:
+Feb 13 10:07:54 Dr42D kernel: [    0.425266] ACPI: SSDT 0xFFFF97CF2F316800 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.425805] ACPI: Dynamic OEM Table Load:
+Feb 13 10:07:54 Dr42D kernel: [    0.425809] ACPI: SSDT 0xFFFF97CF2ED7C200 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 13 10:07:54 Dr42D kernel: [    0.428043] ACPI : EC: EC started
+Feb 13 10:07:54 Dr42D kernel: [    0.428044] ACPI : EC: interrupt blocked
+Feb 13 10:07:54 Dr42D kernel: [    0.429428] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 13 10:07:54 Dr42D kernel: [    0.429429] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 13 10:07:54 Dr42D kernel: [    0.429430] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 13 10:07:54 Dr42D kernel: [    0.429431] ACPI: Interpreter enabled
+Feb 13 10:07:54 Dr42D kernel: [    0.429474] ACPI: (supports S0 S3 S4 S5)
+Feb 13 10:07:54 Dr42D kernel: [    0.429475] ACPI: Using IOAPIC for interrupt routing
+Feb 13 10:07:54 Dr42D kernel: [    0.440164] ACPI: Power Resource [PG00] (on)
+Feb 13 10:07:54 Dr42D kernel: [    0.506118] ACPI: Power Resource [FN00] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.506197] ACPI: Power Resource [FN01] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.506275] ACPI: Power Resource [FN02] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.506352] ACPI: Power Resource [FN03] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.506429] ACPI: Power Resource [FN04] (off)
+Feb 13 10:07:54 Dr42D kernel: [    0.507694] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 13 10:07:54 Dr42D kernel: [    0.560729] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560783] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560833] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560883] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560932] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.560982] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.561031] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.561079] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 13 10:07:54 Dr42D kernel: [    0.561626] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 13 10:07:54 Dr42D kernel: [    0.561786] ACPI : EC: interrupt unblocked
+Feb 13 10:07:54 Dr42D kernel: [    0.561798] ACPI : EC: event unblocked
+Feb 13 10:07:54 Dr42D kernel: [    0.561828] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 13 10:07:54 Dr42D kernel: [    0.561829] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 13 10:07:54 Dr42D kernel: [    1.024667] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 13 10:07:54 Dr42D kernel: [    1.024772] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 13 10:07:54 Dr42D kernel: [    1.026642] ACPI: bus type USB registered
+Feb 13 10:07:54 Dr42D kernel: [    2.805397] ACPI: Sleep Button [SLPB]
+Feb 13 10:07:54 Dr42D kernel: [    2.806457] ACPI: Power Button [PWRB]
+Feb 13 10:07:54 Dr42D kernel: [    2.819735] ACPI: AC Adapter [ADP1] (on-line)
+Feb 13 10:07:54 Dr42D kernel: [    2.855823] ACPI: Battery Slot [BAT0] (battery present)
+Feb 13 10:07:54 Dr42D kernel: [    2.870962] ACPI: Lid Switch [LID0]
+Feb 13 10:07:54 Dr42D kernel: [    2.871036] ACPI: Power Button [PWRF]
+Feb 13 10:07:54 Dr42D kernel: [    2.944155] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 13 10:07:54 Dr42D kernel: [    2.944604] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+Feb 13 16:04:39 Dr42D kernel: [ 2938.945651] ACPI : EC: event blocked
+Feb 13 16:04:39 Dr42D kernel: [ 2939.265475] ACPI : EC: interrupt blocked
+Feb 13 16:04:39 Dr42D kernel: [ 2939.285409] ACPI: Preparing to enter system sleep state S4
+Feb 13 16:04:39 Dr42D kernel: [ 2939.285858] ACPI : EC: EC stopped
+Feb 13 16:04:39 Dr42D kernel: [ 2939.302516] ACPI : EC: EC started
+Feb 13 16:04:39 Dr42D kernel: [ 2939.315539] ACPI: Waking up from system sleep state S4
+Feb 13 16:04:39 Dr42D kernel: [ 2939.319815] ACPI : EC: interrupt unblocked
+Feb 13 16:04:39 Dr42D kernel: [ 2939.498613] ACPI : EC: event unblocked
+Feb 13 16:04:39 Dr42D kernel: [ 2939.498856] ACPI : button: The lid device is not compliant to SW_LID.
+Feb 17 02:40:11 Dr42D kernel: [114487.126768] ACPI : EC: event blocked
+Feb 17 02:40:11 Dr42D kernel: [114487.437604] ACPI : EC: interrupt blocked
+Feb 17 02:40:11 Dr42D kernel: [114487.457753] ACPI: Preparing to enter system sleep state S4
+Feb 17 02:40:11 Dr42D kernel: [114487.458316] ACPI : EC: EC stopped
+Feb 17 02:40:11 Dr42D kernel: [114487.471650] ACPI : EC: EC started
+Feb 17 02:40:11 Dr42D kernel: [114487.484873] ACPI: Waking up from system sleep state S4
+Feb 17 02:40:11 Dr42D kernel: [114487.489009] ACPI : EC: interrupt unblocked
+Feb 17 02:40:11 Dr42D kernel: [114487.667092] ACPI : EC: event unblocked
+Feb 17 11:50:01 Dr42D kernel: [119473.374034] ACPI : EC: event blocked
+Feb 17 11:50:01 Dr42D kernel: [119474.278423] ACPI : EC: interrupt blocked
+Feb 17 11:50:01 Dr42D kernel: [119474.347513] ACPI: Preparing to enter system sleep state S3
+Feb 17 11:50:01 Dr42D kernel: [119474.386034] ACPI : EC: EC stopped
+Feb 17 11:50:01 Dr42D kernel: [119474.395302] ACPI: Low-level resume complete
+Feb 17 11:50:01 Dr42D kernel: [119474.395399] ACPI : EC: EC started
+Feb 17 11:50:01 Dr42D kernel: [119474.407458] ACPI: Waking up from system sleep state S3
+Feb 17 11:50:01 Dr42D kernel: [119474.454130] ACPI : EC: interrupt unblocked
+Feb 17 11:50:01 Dr42D kernel: [119474.521803] ACPI : EC: event unblocked
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: RSDP 0x0000000077595000 000024 (v02 DELL  )
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: XSDT 0x00000000775950B0 0000E4 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: FACP 0x00000000775AE720 00010C (v05 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: DSDT 0x0000000077595228 0194F4 (v02 DELL   QA09     01072009 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: FACS 0x0000000077C0DF80 000040
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: APIC 0x00000000775AE830 000084 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: FPDT 0x00000000775AE8B8 000044 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: FIDT 0x00000000775AE900 00009C (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: MCFG 0x00000000775AE9A0 00003C (v01 DELL   QA09     01072009 MSFT 00000097)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: HPET 0x00000000775AE9E0 000038 (v01 DELL   QA09     01072009 AMI. 0005000B)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEA18 000315 (v01 SataRe SataTabl 00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LPIT 0x00000000775AED30 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AEDC8 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AF010 000ED1 (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775AFEE8 000C45 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: DBGP 0x00000000775B0B30 000034 (v01 INTEL           00000000 MSFT 0000005F)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: DBG2 0x00000000775B0B68 000054 (v00 INTEL           00000000 MSFT 0000005F)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B0BC0 0035D6 (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: BOOT 0x00000000775B4198 000028 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SLIC 0x00000000775B41C0 000176 (v01 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B4338 0053B6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: UEFI 0x00000000775B96F0 000042 (v01                 00000000      00000000)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: MSDM 0x00000000775B9738 000055 (v03 DELL   QA09     01072009 AMI  00010013)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775B9790 000E58 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA5E8 0000D1 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: DMAR 0x00000000775BA6C0 0000CC (v01 INTEL  SKL      00000001 INTL 00000001)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: TPM2 0x00000000775BA790 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: SSDT 0x00000000775BA7C8 0019FF (v01 OptRef OptTabl  00001000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1808
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 18 23:49:11 Dr42D kernel: [    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Feb 18 23:49:11 Dr42D kernel: [    0.000043] ACPI: Core revision 20160831
+Feb 18 23:49:11 Dr42D kernel: [    0.037010] ACPI: 10 ACPI AML tables successfully acquired and loaded
+Feb 18 23:49:11 Dr42D kernel: [    0.395615] ACPI: bus type PCI registered
+Feb 18 23:49:11 Dr42D kernel: [    0.411892] ACPI: Added _OSI(Module Device)
+Feb 18 23:49:11 Dr42D kernel: [    0.411893] ACPI: Added _OSI(Processor Device)
+Feb 18 23:49:11 Dr42D kernel: [    0.411893] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 18 23:49:11 Dr42D kernel: [    0.411894] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 18 23:49:11 Dr42D kernel: [    0.413068] ACPI: Executed 19 blocks of module-level executable AML code
+Feb 18 23:49:11 Dr42D kernel: [    0.423708] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Feb 18 23:49:11 Dr42D kernel: [    0.428592] ACPI: Dynamic OEM Table Load:
+Feb 18 23:49:11 Dr42D kernel: [    0.428599] ACPI: SSDT 0xFFFF92AF2ECCA800 000579 (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.428892] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+Feb 18 23:49:11 Dr42D kernel: [    0.430242] ACPI: Dynamic OEM Table Load:
+Feb 18 23:49:11 Dr42D kernel: [    0.430247] ACPI: SSDT 0xFFFF92AF2ECC7800 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.431124] ACPI: Dynamic OEM Table Load:
+Feb 18 23:49:11 Dr42D kernel: [    0.431129] ACPI: SSDT 0xFFFF92AF2F316000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.431677] ACPI: Dynamic OEM Table Load:
+Feb 18 23:49:11 Dr42D kernel: [    0.431682] ACPI: SSDT 0xFFFF92AF2ED7CA00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+Feb 18 23:49:11 Dr42D kernel: [    0.433927] ACPI : EC: EC started
+Feb 18 23:49:11 Dr42D kernel: [    0.433928] ACPI : EC: interrupt blocked
+Feb 18 23:49:11 Dr42D kernel: [    0.435518] ACPI: \_SB_.PCI0.LPCB.EC__: Used as first EC
+Feb 18 23:49:11 Dr42D kernel: [    0.435519] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 18 23:49:11 Dr42D kernel: [    0.435521] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions
+Feb 18 23:49:11 Dr42D kernel: [    0.435521] ACPI: Interpreter enabled
+Feb 18 23:49:11 Dr42D kernel: [    0.435568] ACPI: (supports S0 S3 S4 S5)
+Feb 18 23:49:11 Dr42D kernel: [    0.435568] ACPI: Using IOAPIC for interrupt routing
+Feb 18 23:49:11 Dr42D kernel: [    0.446396] ACPI: Power Resource [PG00] (on)
+Feb 18 23:49:11 Dr42D kernel: [    0.511856] ACPI: Power Resource [FN00] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.511935] ACPI: Power Resource [FN01] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.512015] ACPI: Power Resource [FN02] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.512092] ACPI: Power Resource [FN03] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.512169] ACPI: Power Resource [FN04] (off)
+Feb 18 23:49:11 Dr42D kernel: [    0.513437] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+Feb 18 23:49:11 Dr42D kernel: [    0.566491] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566545] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566596] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566645] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566695] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566744] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566793] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.566843] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+Feb 18 23:49:11 Dr42D kernel: [    0.567389] ACPI: Enabled 5 GPEs in block 00 to 7F
+Feb 18 23:49:11 Dr42D kernel: [    0.567555] ACPI : EC: interrupt unblocked
+Feb 18 23:49:11 Dr42D kernel: [    0.567567] ACPI : EC: event unblocked
+Feb 18 23:49:11 Dr42D kernel: [    0.567597] ACPI: \_SB_.PCI0.LPCB.EC__: GPE=0x46, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Feb 18 23:49:11 Dr42D kernel: [    0.567598] ACPI: \_SB_.PCI0.LPCB.EC__: Used as boot DSDT EC to handle transactions and events
+Feb 18 23:49:11 Dr42D kernel: [    1.032654] ACPI: bus type USB registered
+Feb 18 23:49:11 Dr42D kernel: [    1.041661] ACPI: Thermal Zone [TZ00] (28 C)
+Feb 18 23:49:11 Dr42D kernel: [    1.041885] ACPI: Thermal Zone [TZ01] (30 C)
+Feb 18 23:49:11 Dr42D kernel: [    2.512586] ACPI: Sleep Button [SLPB]
+Feb 18 23:49:11 Dr42D kernel: [    2.512623] ACPI: Power Button [PWRB]
+Feb 18 23:49:11 Dr42D kernel: [    2.528502] ACPI: AC Adapter [ADP1] (on-line)
+Feb 18 23:49:11 Dr42D kernel: [    2.558082] ACPI: Battery Slot [BAT0] (battery present)
+Feb 18 23:49:11 Dr42D kernel: [    2.572383] ACPI: Lid Switch [LID0]
+Feb 18 23:49:11 Dr42D kernel: [    2.572430] ACPI: Power Button [PWRF]
+Feb 18 23:49:11 Dr42D kernel: [    2.663697] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 18 23:49:11 Dr42D kernel: [    2.665184] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)

@@ -1,0 +1,1 @@
+sed -e 's/\./\n/g' -e 's/ /\n/g' | tr 'A-Z' 'a-z' | grep '[a-zA-Z]{3,}' | sort | uniq -c | sort -nr

@@ -1,0 +1,19 @@
+#! /bin/bash
+
+a=""
+
+read a
+let b=a%2
+
+
+cnt=1
+
+while [ $b -ne 0 ]
+do 
+let cnt=cnt+1
+read a
+let b=a%2
+done
+
+echo $cnt
+

@@ -1,0 +1,5 @@
+#! /bin/bash
+
+touch errors.log
+
+sudo grep -shEr '^.*\] ACPI(\s)?:.*'  /var/log/* > errors.log

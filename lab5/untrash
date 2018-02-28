@@ -1,0 +1,71 @@
+#! /bin/bash
+
+#a)$1 - filename
+
+#b)
+records=$( grep -E "^/.*?/$1:.*$" ~/.trash.log )
+
+if [[ ${records} == "" ]]
+then
+    echo 'Nothing was found'
+    exit 0
+fi
+
+for curRecord in ${records[*]}
+do
+    filePath=""
+    trashName=""
+    read filePath trashName <<< $( echo "$curRecord" | awk -F":" '{print $1" "$2" "$3}' )
+    echo "Do you want to restore \"$filePath\" (y/n)?" 
+    read flag
+    fileName=$( basename $filePath )
+    dirName=$( dirname $filePath )
+    while  ! [[ ${flag} == "n" ]] && ! [[ ${flag} == "y" ]]
+    do
+        read flag
+    done
+    if [[ "$flag" == "y" ]]
+    then
+        if [ -d ${dirName} ]
+        then
+            while [ -f ${filePath} ]
+            do
+                echo "File \"${filePath}\" is already exist! Restore with new filename(y/n)?"
+                read flag
+                while  ! [[ ${flag} == "n" ]] && ! [[ ${flag} == "y" ]]
+                do
+                    read flag
+                done
+                if [[ ${flag} == "n" ]]
+                then
+                    exit 0
+                fi
+                read fileName
+                filePath=${dirName}\/${fileName}
+            done
+            ln ~/.trash/"$trashName" "$filePath"
+            sed -i "s#^/.*:${trashName}\$#\#(UNTRASHED):&#" ~/.trash.log
+            echo "Restored as \"${filePath}\""
+        else
+            echo "Directory \"${dirName}\" is not exist!"
+            while [ -f ~/OSprac/test/${fileName} ]
+            do
+                echo "File \"~/OSprac/test/${fileName}\" is already exist! Restore with new filename(y/n)?"
+                read flag
+                while  ! [[ ${flag} == "n" ]] && ! [[ ${flag} == "y" ]]
+                do
+                    read flag
+                done
+                if [[ ${flag} == "n" ]]
+                then
+                    exit 0
+                fi
+                read fileName
+            done
+            ln ~/.trash/"$trashName" ~/OSprac/test/"$fileName"
+            sed -i "s#^/.*:${trashName}\$#\#(UNTRASHED):&#" ~/.trash.log
+            echo "Restored as \"${fileName}\" to home directory"
+        fi
+    fi
+done
+

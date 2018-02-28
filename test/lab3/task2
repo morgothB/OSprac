@@ -1,0 +1,3 @@
+#! /bin/bash
+
+ps -au | awk '{print $9 " " $2}' | grep -E '^[1-9].*$' | sort -k1 | awk -F ' ' 'END{print $2}'

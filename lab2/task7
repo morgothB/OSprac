@@ -1,0 +1,14 @@
+#! /bin/bash
+
+man bash | cat | mawk '{ 
+    for(i=1;i<=NF;i++){
+        w=tolower($i);
+        if (w ~ /^[a-z]([a-z1-9]*)$/ && length(w) > 3) {
+            a[w]++;
+        }
+}
+} END {
+    for (j in a){
+        print j,a[j]
+    }
+}' | sort -rnk2 | head -n3

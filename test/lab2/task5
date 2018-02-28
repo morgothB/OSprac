@@ -1,0 +1,3 @@
+#! /bin/bash
+
+grep -E '.*' /etc/passwd | sort -t":" -k3n | sed -e 's/^\([^:]*\)[^0-9]*\([0-9]*\).*/\1 \2/'

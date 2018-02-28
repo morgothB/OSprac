@@ -1,0 +1,77 @@
+#! /bin/bash
+
+#a)
+dirList=$(ls -d ~/*/ | awk -F '/' '{ print $(NF-1) }' )
+#echo ${dirList}
+
+newDirName="Backup-$(date +%Y-%m-%d)"
+validDate=$(date -d "-7 days"  +%Y-%m-%d)
+
+curDate=$(date +%Y-%m-%d)
+
+#echo ${newDirName}
+
+#echo ${validDate}
+
+for dir in ${dirList[*]} 
+do
+    backupDate=''
+    backupDate=$(echo $dir | awk -F '/' '{ print $(NF-1) }' | \
+                            grep -E "^Backup-[0-9]{4}\-[0-9]{2}\-[0-9]{2}$" | \
+                            sed "s#^Backup-\(.*\)\$#\1#" )
+    if  [[ -n "$backupDate" ]]
+    then
+        #echo ${backupDate}
+        let dateFlag=$(date -d "$validDate" +%s)\-$(date -d "$backupDate" +%s)
+        #echo ${dateFlag}
+        if (( ${dateFlag} < 0 ))
+        then
+            echo "${dir} was appended $(date +%Y-%m-%d' '%H:%M)" >> ~/backup-report
+            echo "Unique files:" >> ~/backup-report
+            
+            uniqueFileList=$( ( ( ( (ls -p ~/${dir}/ | grep -v /) & (ls -p ~/source/ | grep -v / ) ) | sort | uniq -u ) & (ls -p ~/source/ | grep -v / ) ) | sort | uniq -d )
+            
+            #echo ${uniqueFileList} 
+            
+            for curFile in ${uniqueFileList[*]}
+            do
+                cp ~/source/${curFile} ~/${dir}/
+                echo "    ${curFile} : ${curDate}" >> ~/backup-report
+            done
+            
+            echo "Replaced files:" >> ~/backup-report
+            
+            repeatFileList=$( ( (ls -p ~/${dir}/ | grep -v /) & (ls -p ~/source/ | grep -v / ) ) | sort | uniq -d )
+            
+            #echo ${repeatFileList}
+            
+            for curFile in ${repeatFileList}
+            do
+                let sizeFlag=$(stat ~/source/${curFile} -c %s)\-$(stat ~/${dir}/${curFile} -c %s)
+                if (( ${sizeFlag} == 0 ))
+                then
+                    mv ~/${dir}/${curFile} ~/${dir}/"${curFile}.${curDate}"
+                    cp ~/source/${curFile} ~/${dir}/
+                    echo "#  ${curFile} : ${curFile}.${curDate}" >> ~/backup-report
+                fi
+            done
+            
+            echo '' >> ~/backup-report
+            
+            exit 1
+        fi
+    fi
+done
+
+
+mkdir ~/"$newDirName"
+echo "${newDirName} was created $(date +%Y-%m-%d' '%H:%M)" >> ~/backup-report
+echo "Files were added:" >> ~/backup-report
+cp ~/source/* ~/"$newDirName"
+uniqueFileList=$( ls -p ~/"$newDirName" | grep -v / )
+for curFile in ${uniqueFileList[*]}
+do
+    echo "    ${curFile} : ${curDate}" >> ~/backup-report
+done
+echo '' >> backup-report
+#echo $(ls -p ~/source/ | grep -v /)   

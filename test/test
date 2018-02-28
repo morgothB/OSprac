@@ -1,0 +1,240 @@
+#! /bin/bash
+
+#echo "/home/morgoth/Backup.$(date +%Y-%m-%d)/" | \
+#awk -F '/' '{ print $(NF-1) }' | \
+#grep -E "^Backup.[0-9]{4}\-[0-9]{2}\-[0-9]{2}$" | \
+#awk -F '.' '{ print $NF }'
+
+fileList=$(ls -p ~/ | grep -v / | grep -E "[0-9]{4}\-[0-9]{2}\-[0-9]{2}$")
+
+dir=$(ls -d ~/*/ | awk -F '/' '{ print $(NF-1) }' |  grep -E "^Backup-[0-9]{4}\-[0-9]{2}\-[0-9]{2}$" | sort | awk -F '/' 'END{print $0}')
+
+fileList=$(ls -p ~/${dir} | grep -v / | grep -v -E "[0-9]{4}\-[0-9]{2}\-[0-9]{2}$")
+
+
+if ! [ -d ~/restore/ ]
+then
+    mkdir ~/restore
+fi
+
+for i in ${fileList[*]}
+do
+    #echo $i
+    cp ~/${dir}/${i} ~/restore/
+done
+
+exit 0
+
+newDirName="Backup-$(date +%Y-%m-%d)"
+validDate=$(date -d "-7 days"  +%Y-%m-%d)
+
+curDate=$(date +%Y-%m-%d)
+
+#echo ${newDirName}
+
+#echo ${validDate}
+
+for dir in ${dirList[*]} 
+do
+    backupDate=''
+    backupDate=$(echo $dir | awk -F '/' '{ print $(NF-1) }' | \
+                            grep -E "^Backup-[0-9]{4}\-[0-9]{2}\-[0-9]{2}$" | \
+                            sed "s#^Backup-\(.*\)\$#\1#" )
+    if  [[ -n "$backupDate" ]]
+    then
+        #echo ${backupDate}
+        let dateFlag=$(date -d "$validDate" +%s)\-$(date -d "$backupDate" +%s)
+        if (( ${dateFlag} >= 0 ))
+        then
+            
+        fi
+    fi
+done
+
+exit 0
+
+dirList=$(ls -d ~/*/ | awk -F '/' '{ print $(NF-1) }' )
+#echo ${dirList}
+
+newDirName="Backup-$(date +%Y-%m-%d)"
+validDate=$(date -d "-7 days"  +%Y-%m-%d)
+
+curDate=$(date +%Y-%m-%d)
+
+#echo ${newDirName}
+
+#echo ${validDate}
+
+for dir in ${dirList[*]} 
+do
+    backupDate=''
+    backupDate=$(echo $dir | awk -F '/' '{ print $(NF-1) }' | \
+                            grep -E "^Backup-[0-9]{4}\-[0-9]{2}\-[0-9]{2}$" | \
+                            sed "s#^Backup-\(.*\)\$#\1#" )
+    if  [[ -n "$backupDate" ]]
+    then
+        #echo ${backupDate}
+        let dateFlag=$(date -d "$validDate" +%s)\-$(date -d "$backupDate" +%s)
+        #echo ${dateFlag}
+        if (( ${dateFlag} < 0 ))
+        then
+            echo "${dir} was appended $(date +%Y-%m-%d' '%H:%M)" >> ~/backup-report
+            echo "Unique files:" >> ~/backup-report
+            
+            uniqueFileList=$( ( ( ( (ls -p ~/${dir}/ | grep -v /) & (ls -p ~/source/ | grep -v / ) ) | sort | uniq -u ) & (ls -p ~/source/ | grep -v / ) ) | sort | uniq -d )
+            
+            #echo ${uniqueFileList} 
+            
+            for curFile in ${uniqueFileList[*]}
+            do
+                cp ~/source/${curFile} ~/${dir}/
+                echo "    ${curFile} : ${curDate}" >> ~/backup-report
+            done
+            
+            echo "Replaced files:" >> ~/backup-report
+            
+            repeatFileList=$( ( (ls -p ~/${dir}/ | grep -v /) & (ls -p ~/source/ | grep -v / ) ) | sort | uniq -d )
+            
+            #echo ${repeatFileList}
+            
+            for curFile in ${repeatFileList}
+            do
+                let sizeFlag=$(stat ~/source/${curFile} -c %s)\-$(stat ~/${dir}/${curFile} -c %s)
+                if (( ${sizeFlag} == 0 ))
+                then
+                    mv ~/${dir}/${curFile} ~/${dir}/"${curFile}.${curDate}"
+                    cp ~/source/${curFile} ~/${dir}/
+                    echo "#  ${curFile} : ${curFile}.${curDate}" >> ~/backup-report
+                fi
+            done
+            
+            echo '' >> ~/backup-report
+            
+            exit 1
+        fi
+    fi
+done
+
+mkdir ~/"$newDirName"
+echo "${newDirName} was created $(date +%Y-%m-%d' '%H:%M)" >> ~/backup-report
+echo "Files were added:" >> ~/backup-report
+cp ~/source/* ~/"$newDirName"
+#echo $(ls -p ~/source/ | grep -v /)   
+
+
+exit 0
+    if (( -z "$backupDate" ))
+    then
+        newDirName="Backup-$(date +%Y-%m-%d)"
+        mkdir ~/"$newDirName"
+        cp ~/source/* ~/"$newDirName"
+        echo "New backup directory $HOME\/$newDirName\/ was made at $(date)\." >> ~/'backup-report'
+        echo "$(ls ~/source/ | wc -l) files was added:" >> ~/'backup-report'
+        ls -l ~/source/ >> ~/'backup-report' 
+    else
+        validDate=$(date -d "-7 days"  +%Y-%m-%d)
+        dateFlag=0
+        let dateFlag=$(date -d "$validDate" +%s)\-$(date -d "$backupDate" +%s)
+        if [[ "$dateFlag" -ge 0 ]]
+        then
+            newDirName="Backup-$(date +%Y-%m-%d)"
+            mkdir ~/"$newDirName"
+            cp ~/source/* ~/"$newDirName"
+            echo "New backup directory $HOME\/$newDirName\/ was made at $(date)\." >> ~/'backup-report'
+            echo "$(ls ~/source/ | wc -l) files was added:" >> ~/'backup-report'
+            ls -l ~/source/ >> ~/'backup-report' 
+        else
+            ls -1 ~/source/ | 
+        fi
+    fi
+exit
+
+echo $1
+
+sed -i "s#^/.*:$1\$#\#(UNTRASHED):&#" tlcopy.dd
+
+res=$( sed  "s#^\(.*:\).*\$#\#(UNTRASHEDD):&#" tlcopy ) # > tlcopy.dd
+echo ${res}
+for cur in ${res[*]}
+do
+    echo ${cur}
+    echo 11
+done
+
+records=$( grep -E "^/.*?/$1:.*$" ~/.trash.log )
+
+if [[ ${records} == "" ]]
+then
+    echo 'Nothing was found'
+    exit 0
+fi
+
+for curRecord in ${records[*]}
+do
+    filePath=""
+    trashName=""
+    read filePath trashName <<< $( echo "$curRecord" | awk -F":" '{print $1" "$2" "$3}' )
+    echo "Do you want to untrash \"$filePath\" (y/n)?" 
+    read flag
+    fileName=$( basename $filePath )
+    dirName=$( dirname $filePath )
+    while  ! [[ ${flag} == "n" ]] && ! [[ ${flag} == "y" ]]
+    do
+        read flag
+    done
+    if [[ "$flag" == "y" ]]
+    then
+        if [ -d ${dirName} ]
+        then
+            while [ -f ${filePath} ]
+            do
+                echo "File \"${filePath}\" if already exist! Restore with new filename(y/n)?"
+                read flag
+                while  ! [[ ${flag} == "n" ]] && ! [[ ${flag} == "y" ]]
+                do
+                    read flag
+                done
+                if [[ ${flag} == "n" ]]
+                then
+                    exit 0
+                fi
+                read fileName
+                filePath=${dirName}\/${fileName}
+            done
+            ln ~/.trash/"$trashName" "$filePath"
+            echo "Restored as \"${filePath}\""
+        else
+            echo "Directory \"${dirName}\" is not exist!"
+            while [ -f ~/OSprac/test/${fileName} ]
+            do
+                echo "File \"~/OSprac/test/${fileName}\" if already exist! Restore with new filename(y/n)?"
+                read flag
+                while  ! [[ ${flag} == "n" ]] && ! [[ ${flag} == "y" ]]
+                do
+                    read flag
+                done
+                if [[ ${flag} == "n" ]]
+                then
+                    exit 0
+                fi
+                read fileName
+            done
+            ln ~/.trash/"$trashName" ~/OSprac/test/"$fileName"
+            echo "Restored as \"${fileName}\" to home directory"
+        fi
+    fi
+done
+
+exit
+
+
+#d)
+#echo "$(pwd $1)/$1:$name" >> ~/.trash.log
+
+#sed -e "s#^.*?.\([0-9\-]*\)$#\1#"
+#VAR1="patter1"
+#VAR2="patter2"
+
+#VAR3="full_path_to_file"
+
+#sed -e "s/${VAR1}/${VAR2}/g" ${VAR3}

@@ -1,0 +1,21 @@
+#! /bin/bash
+
+#a) param is $1
+
+#b)
+if ! [ -d ~/.trash/ ] 
+then
+    mkdir ~/.trash/
+fi
+
+#c)
+name="$(date +%s)"
+echo "$name"
+echo "$(pwd $1)/$1"
+ln $1 ~/'.trash'/"$name"
+rm $1
+
+#d)
+echo "$(pwd $1)/$1:$name" >> ~/.trash.log
+
+

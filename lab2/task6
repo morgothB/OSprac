@@ -1,0 +1,7 @@
+#! /bin/bash
+cnt=0
+
+grep -csR  * /var/log/*.log$ | sed  's/^.*:\([0-9]*\).*$/\1/' | awk  '{ res+= $0
+} END { 
+    print res 
+}' 

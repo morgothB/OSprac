@@ -1,0 +1,9 @@
+#! /bin/bash
+
+touch full.log 
+
+grep -E '^.*\] (\(WW\)|\(II\)).*' /var/log/Xorg.0.log | sed -e 's/\[.*(II)/Information:/' -e 's/\[.*(WW)/Warning:/' | sort -r > full.log
+
+cat full.log
+
+

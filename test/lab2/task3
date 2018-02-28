@@ -1,0 +1,5 @@
+#! /bin/bash
+
+sudo grep -sarhE '^.*(([a-z1-9\-_]\.?)+)([^.])@([a-zA-Z1-9]+\.)+([[:alpha:]]{2,5})' /etc/* | sed -e 's/^.*[^a-zA-Z1-9]\([a-zA-Z1-9]*@[a-zA-Z1-9]*.[a-zA-Z]*\).*$/\1/' | sudo tr '\n' ' ,'  | sudo sed -e 's/\s/, /g' > emails.lst
+
+cat emails.lst

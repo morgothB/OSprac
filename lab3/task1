@@ -1,0 +1,15 @@
+#! /bin/bash
+
+ps -u | awk -F ' ' '{
+                        printf "%d ", $2;
+                        for (i=11; i<=NF; i++)
+                            printf "%s ", $i
+                        print ""
+                    }' > 1res
+                                
+read a b <<< $(wc -l 1res) 
+
+echo $a
+
+
+

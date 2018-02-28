@@ -1,0 +1,3 @@
+#! /bin/bash
+
+ps -au | grep -E "/sbin/[a-zA-Z].*$" | awk '{print $2}'

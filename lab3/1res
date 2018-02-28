@@ -1,0 +1,20 @@
+0 COMMAND 
+3184 bash task1 
+3185 ps -u 
+3186 awk -F { printf "%d ", $2; for (i=11; i<=NF; i++) printf "%s ", $i print "" } 
+4478 /bin/bash 
+4485 man sed 
+4497 pager 
+5400 /bin/bash 
+10529 /bin/bash 
+11458 /bin/bash 
+17945 /bin/bash 
+17955 man grep 
+17967 pager 
+19791 kate task1 
+21655 grep -c -E .* 
+26799 bash task1 
+26803 grep -c -E .* 
+30092 /bin/bash 
+30098 man awk 
+30110 pager 
